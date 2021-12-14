@@ -52,7 +52,7 @@ None
 
 This template uses SharePoint as it's main data source and consists of two different lists.
 
-### List Name: Desks
+### Desks List
 
 This SharePoint list contains the information about the desks that people can book.  Set the list up as follows:
 
@@ -64,14 +64,14 @@ This SharePoint list contains the information about the desks that people can bo
 |Number|Active|No|
 |Single line of text|Floor|No|
 
-### List Name: Desk Reservations
+### Desks Reservations List
 
 This SharePoint list contains the reservation information.  Set the list up as follows:
 
 |Type|Internal Name|Required|
 |---|---|:---:|
 |Single line of text|Title|Yes|
-|Single line of text|Desk Text|Yes|
+|Single line of text|DeskText|Yes|
 |Person or Group|Reserved By|Yes|
 |Date and Time|Check Out From|No|
 |Date and Time|Check Out To|No|
